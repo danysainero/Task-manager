@@ -1,0 +1,25 @@
+.board {
+  background: var(--c-green);
+  border-radius: var(--radius-m);
+  color: var(--c-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 150px;
+  padding: var(--pdd-m);
+  text-align: center;
+  width: calc(200px + 1vw);
+
+  p {
+    margin: 5px 0;
+
+    &:nth-child(2){
+      padding: var(--pdd-m);
+    }
+    &:last-child {
+      color: var(--c-green-l);
+      font-size: var(--fs-xs);
+      text-align: right;
+    }
+  }
+}

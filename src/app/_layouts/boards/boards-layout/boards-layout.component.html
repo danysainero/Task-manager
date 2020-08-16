@@ -1,0 +1,34 @@
+<div class="boards-wrapper">
+  <div class="boards-list" [dragula]="BOARDS" [(dragulaModel)]="boards">
+    <div *ngFor="let board of boards" >
+      <app-board [board]="board"></app-board>
+    </div>
+   
+  </div>
+  <div class="board-new">
+    <p>New Board</p>
+    <form [formGroup]="newBoardForm">
+      <div class="formcontrol">
+        <label for="boardTitle">Board Title</label>
+        <input
+          type="text"
+          formControlName="boardTitle"
+          id="boardTitle"
+          placeholder="Title"
+        />
+      </div>
+      <div class="formcontrol">
+        <label for="boardDescription">Board Description</label>
+        <input
+          type="text"
+          formControlName="boardDescription"
+          id="boardDescription"
+          placeholder="Description"
+        />
+      </div>
+      <div class="btn-container">
+        <button (click)="addBoard()">+</button>
+      </div>
+    </form>
+  </div>
+</div>

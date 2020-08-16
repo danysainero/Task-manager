@@ -1,0 +1,48 @@
+:root {
+  /************************ FONT FAMILY******************/
+
+  --ff-logo: "Amatic SC";
+
+  /************************ COLORS******************/
+  --c-transparent: #00000000;
+  --c-translucid: #00000070;
+  --c-black: #14141b;
+  --c-grey: #888888;
+  --c-white: #FFFDFE;
+  --c-green: #95BB7E;
+  --c-green-d: #3b614a;
+  --c-green-l: #D2EDC4;
+  --c-orange: #EDBB4C;
+  --c-orange-l: #f5d286;
+
+  /************************FONT SIZES******************/
+  --fs-xs: 14px;
+  --fs-s: 16px;
+  --fs-md: 18px;
+  --fs-l: 20px;
+  --fs-xl: 28px;
+
+  /************************FONT WEIGHT******************/
+
+  --fw-fat: 600;
+  --fw-normal: 400;
+  --fw-thin: 200;
+
+  /************************INPUT STYLES******************/
+  --input-h: 35px;
+  --input-radius: 5px;
+  --input-bg: var(--c-grey);
+
+ /************************PADDING STYLES******************/
+ --pdd-xxl: 2.2rem;
+ --pdd-xl: 1.5rem;
+ --pdd-l: 0.9rem;
+ --pdd-m: 0.6rem;
+ --pdd-xs: 0.3rem;
+
+ /************************RADIUS STYLES******************/
+ --radius-xxl: 15px;
+ --radius-m: 8px;
+ --radius-xs: 4px;
+ --radius-rounded: 50%;
+}

@@ -1,0 +1,56 @@
+.boards-wrapper {
+  margin-left: 20vh;
+  padding: 2vw;
+}
+
+.boards-list {
+  display: grid;
+  justify-items: center;
+  gap: 3vw;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+
+.board-new {
+  background: var(--c-green-l);
+  border-radius: var(--radius-m);
+  color: var(--c-grey);
+  min-height: 150px;
+  padding: var(--pdd-m);
+  text-align: center;
+  width: calc(200px + 1vw);
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-direction: column;
+  .formcontrol{
+   
+    label {
+      display: none;
+    }
+  }
+  input {
+    margin: 5px 0;
+    border: none;
+    border-radius: var(--radius-xs);
+    padding: var(--pdd-xs);
+  }
+
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    background: var(--c-green-d);
+    border-radius: var(--radius-xs);
+    border: none;
+    color: var(--c-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--pdd-m);
+    width: 25px;
+    height: 25px;
+  }
+}

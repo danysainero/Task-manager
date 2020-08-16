@@ -1,0 +1,19 @@
+.main-nav {
+  background: var(--c-translucid);
+  color: var(--c-white);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: var(--pdd-xl) 0;
+  position: fixed;
+  width: 20vh;
+
+  ul li {
+    margin: 25px 0;
+  }
+
+  a {
+    color: var(--c-white);
+    text-decoration: none;
+  }
+}
